@@ -1,0 +1,14 @@
+<style>
+.parallax {
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<div class="bootstrap-iso" style="font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;">
+  <div class="parallax" style="background-image:url({image : Src})"></div>
+</div>
