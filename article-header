@@ -1,0 +1,6 @@
+<div class="bootstrap-iso" style="font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;">
+<div class="page-header" style="padding: 15px">
+  <h1>{header_title : Text}</h1>
+  <p>{sub_title : Text}</p>
+</div>
+</div>
