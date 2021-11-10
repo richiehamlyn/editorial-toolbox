@@ -1,0 +1,45 @@
+ <blockquote><p class="quotation"> 
+  {quote : Text}</p>
+<footer>- {quote_by : Text}</footer>
+</blockquote> 
+<style>
+.quotation{
+font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  //margin: 0 auto;
+  quotes: "\201C""\201D""\2018""\2019";
+  line-height: 1.4;
+margin: 40px;
+padding: 20px;
+}
+
+.quotation:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
+.quotation::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 3em;
+}
+footer{
+  margin:0;
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+padding-right: 60px;
+}
+</style>
