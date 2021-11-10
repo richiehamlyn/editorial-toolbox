@@ -1,3 +1,38 @@
-<div style="text-align: center">
-<iframe title="vimeo-player" src="{url : Text}" width="{width : Text}" height="{height : Text}" frameborder="{border : Text}" allowfullscreen></iframe>
+<div class="bootstrap-iso" style="font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;">
+   <div class="container">
+      <h2>{title : Text}</h2>
+      <p>{sub_title : Text}</p>
+      <div class="panel-group" id="accordion">
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">{acc_title_1 : Text}</a>
+               </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+               <div class="panel-body"{acc_body_1 : Wysiwyg}
+            </div>
+         </div>
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">{acc_title_2 : Text}</a>
+               </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+               <div class="panel-body">{acc_body_2 : Wysiwyg}</div>
+            </div>
+         </div>
+         <div class="panel panel-default">
+            <div class="panel-heading">
+               <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">{acc_title_3 : Text}</a>
+               </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+               <div class="panel-body">{acc_body_3 : Wysiwyg}</div>
+            </div>
+         </div>
+      </div>
+   </div>
 </div>
